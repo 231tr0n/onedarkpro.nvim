@@ -5,6 +5,12 @@ local M = {}
 ---@return table
 function M.groups(theme)
     return {
+        RenderMarkdownH1 = { fg = theme.palette.grey, bold = true },
+        RenderMarkdownH2 = { fg = theme.palette.grey, bold = true },
+        RenderMarkdownH3 = { fg = theme.palette.grey, bold = true },
+        RenderMarkdownH4 = { fg = theme.palette.grey, bold = true },
+        RenderMarkdownH5 = { fg = theme.palette.grey, bold = true },
+        RenderMarkdownH6 = { fg = theme.palette.grey, bold = true },
         RenderMarkdownH1Bg = { bg = theme.palette.orange },
         RenderMarkdownH2Bg = { bg = theme.palette.cyan },
         RenderMarkdownH3Bg = { bg = theme.palette.blue },
