@@ -55,7 +55,7 @@ function M.groups(theme)
         MsgArea = { link = "ModeMsg" }, -- Area for messages and cmdline
         MsgSeparator = { link = "ModeMsg" }, -- Separator for scrolled messages, `msgsep` flag of 'display'
         MoreMsg = { fg = theme.palette.green }, -- |more-prompt|
-        NonText = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.gray }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
+        NonText = { bg = "NONE", fg = theme.palette.gray }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
         Normal = { bg = config.options.transparency and "NONE" or theme.palette.bg, fg = theme.palette.fg }, -- normal text
         NormalNC = {
             bg = config.options.transparency and "NONE"
