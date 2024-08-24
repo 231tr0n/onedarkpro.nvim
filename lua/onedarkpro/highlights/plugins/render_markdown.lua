@@ -5,18 +5,18 @@ local M = {}
 ---@return table
 function M.groups(theme)
     return {
-        RenderMarkdownH1 = { fg = theme.palette.grey, bold = true },
-        RenderMarkdownH2 = { fg = theme.palette.grey, bold = true },
-        RenderMarkdownH3 = { fg = theme.palette.grey, bold = true },
-        RenderMarkdownH4 = { fg = theme.palette.grey, bold = true },
-        RenderMarkdownH5 = { fg = theme.palette.grey, bold = true },
-        RenderMarkdownH6 = { fg = theme.palette.grey, bold = true },
         RenderMarkdownH1Bg = { bg = theme.palette.orange },
         RenderMarkdownH2Bg = { bg = theme.palette.cyan },
         RenderMarkdownH3Bg = { bg = theme.palette.blue },
         RenderMarkdownH4Bg = { bg = theme.palette.purple },
         RenderMarkdownH5Bg = { bg = theme.palette.yellow },
         RenderMarkdownH6Bg = { bg = theme.palette.green },
+        RenderMarkdownH1Bg = { fg = theme.palette.grey },
+        RenderMarkdownH2Bg = { fg = theme.palette.grey },
+        RenderMarkdownH3Bg = { fg = theme.palette.grey },
+        RenderMarkdownH4Bg = { fg = theme.palette.grey },
+        RenderMarkdownH5Bg = { fg = theme.palette.grey },
+        RenderMarkdownH6Bg = { fg = theme.palette.grey },
     }
 end
 
