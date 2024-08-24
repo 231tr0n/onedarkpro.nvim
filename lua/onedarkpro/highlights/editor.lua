@@ -15,6 +15,7 @@ function M.groups(theme)
         -- CursorIM     = {bg = theme.palette.red}, -- like Cursor, but used when in IME mode |CursorIM|
         CursorColumn = { bg = theme.palette.gray }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
         CursorLine = { bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+        CursorLineFold = { link = "CursorLineNr" }, -- Fold-column at the cursor, when 'cursorcolumn' is set.
         CursorLineNr = {
             bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg,
             fg = theme.palette.purple,
